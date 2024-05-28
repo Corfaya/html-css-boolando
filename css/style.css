@@ -39,6 +39,10 @@ main {
     justify-content: flex-end;
 }
 
+.space-between {
+    justify-content: space-between;
+}
+
 .align-items-center {
     align-items: center;
 }
@@ -60,9 +64,17 @@ main {
     padding: 20px;
 }
 
+.p-20 {
+    padding: 20px;
+}
+
 /* Background area */
 .bg-orange {
     background-color: #FF6900;
+}
+
+.bg-dark {
+    background-color: #1A1A1A;
 }
 
 .red-label {
@@ -125,7 +137,7 @@ p {
     font-weight: 500;
 }
 
-h2 {
+.caption>h2 {
     text-transform: uppercase;
     font-size: 15px;
 }
@@ -135,8 +147,34 @@ h3 {
     font-size: 14px;
 }
 
+h4 {
+    color: #fff;
+    font-size: 13px;
+}
+
 span {
     text-decoration: line-through;
     font-weight: 500;
     color: #000000;
+}
+
+.info-color>h3 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.info-color i {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.info-color a {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.info-color a, .info-color i {
+    line-height: 40px;
 }
