@@ -15,11 +15,11 @@ header {
     top: 0;
     width: 100%;
     color: #fff;
+    z-index: 1;
 }
 
 main {
     margin: 100px;
-    border: 2px solid black;
 }
 
 .row {
@@ -43,19 +43,11 @@ main {
     align-items: center;
 }
 
-.gap-10 {
-    gap: 10px;
-}
-
 /* LAYOUT CLASSES */
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.container-sm {
-    max-width: 600px;
 }
 
 .col-33 {
@@ -71,6 +63,14 @@ main {
 /* Background area */
 .bg-orange {
     background-color: #FF6900;
+}
+
+.red-label {
+    background-color: #FF0000;
+}
+
+.green-label {
+    background-color: #008000;
 }
 
 /* Other styles */
@@ -89,7 +89,7 @@ li {
     cursor: pointer;
 }
 
-.col-33 img {
+#logo {
     width: 150px;
 }
 
@@ -98,10 +98,45 @@ i {
 }
 
 .model-images {
-    border: 1px solid black;
-    height: 250px;
+    margin: 10px;
+    position: relative;
 }
 
 .model-images>img {
-    max-width: 100%;
+    width: 100%;
+}
+
+.labels {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+}
+
+.label {
+    padding: 8px 10px;
+    margin-right: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+h3 {
+    color: #ff0000;
+    font-size: 14px;
+}
+
+span {
+    text-decoration: line-through;
+    font-weight: 500;
+    color: #000000;
 }
