@@ -75,7 +75,7 @@ main {
 }
 
 /* ELEMENTS' STYLE */
-/* Padding and margin area */
+/* Padding area */
 .p-20 {
     padding: 20px;
 }
@@ -101,6 +101,10 @@ main {
     background-color: #008000;
 }
 
+.bg-white {
+    background-color: #fff;
+}
+
 /* Other styles */
 .shadow {
     box-shadow: 1px 2px 5px #808080;
@@ -118,7 +122,7 @@ li {
 }
 
 #logo {
-    width: 150px;
+    width: 120px;
 }
 
 i {
@@ -126,7 +130,7 @@ i {
 }
 
 .model-images {
-    margin: 10px;
+    margin: 7px;
     position: relative;
 }
 
@@ -141,16 +145,33 @@ i {
 }
 
 .label {
-    padding: 3px 10px;
+    padding: 5px 10px;
     margin-right: 5px;
     color: #fff;
     text-align: center;
     font-size: 10px;
 }
 
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 6px 13px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.heart:hover {
+    color: #FF0000;
+}
+
 p {
     font-size: 12px;
     font-weight: 500;
+}
+
+.caption {
+    margin-top: 5px;
 }
 
 .caption>h2 {
