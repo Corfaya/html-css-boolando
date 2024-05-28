@@ -5,6 +5,7 @@ Ci ispiriamo al sito di Zalando per riprodurre il layout nello screenshot. Per o
 Tabella colori:
 
 Header #FF6900
+Shadow #808080
 Sconti #FF0000
 Sostenibilità #008000
 Footer #1A1A1A
