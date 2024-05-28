@@ -27,6 +27,22 @@ main {
     flex-wrap: wrap;
 }
 
+.d-block {
+    display: block;
+}
+
+.d-hidden {
+    display: none;
+}
+
+.content:hover .d-block {
+    display: none;
+}
+
+.content:hover .d-hidden {
+    display: block;
+}
+
 .flex {
     display: flex;
 }
@@ -120,16 +136,16 @@ i {
 
 .labels {
     position: absolute;
-    bottom: 100px;
+    bottom: 80px;
     left: 0;
 }
 
 .label {
-    padding: 8px 10px;
+    padding: 3px 10px;
     margin-right: 5px;
     color: #fff;
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 p {
