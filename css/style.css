@@ -4,3 +4,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #fff;
+}
+
+main {
+    margin: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* LAYOUT CLASSES */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col-33 {
+    width: (100% / 3);
+}
+
+/* ELEMENTS' STYLE */
+/* Padding and margin area */
+.p-20 {
+    padding: 20px;
+}
+
+/* Background area */
+.bg-orange {
+    background-color: #FF6900;
+}
+
+/* Other styles */
+li {
+    display: inline-block;
+}
+
+[href] {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.col-33 img {
+    width: 150px;
+}
+
+i {
+    margin-right: 5px;
+}
